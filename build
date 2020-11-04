@@ -1,0 +1,5 @@
+#!/bin/bash
+path=$(pwd)
+
+
+mkarchiso -v -w $path/work $path
